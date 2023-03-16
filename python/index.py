@@ -1,7 +1,10 @@
-Print("hi")
-def time(): #attemting to set time as a function
-  1000ms=1second
-time.sleep(1second)#should wait for 1 second
-Print("hi again")
+import time
+MsSenceStart=0
 
-#working on finding a way to have the delay work
+def timer():
+    time.sleep(.001)
+    MsSenceStart=MsSenceStart+1
+    print(MsSenceStart)
+      if MsSenceStart==1000:
+        break
+timer
