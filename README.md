@@ -1,1 +1,1 @@
-This is python-app
+This is python-app, an attempt to enhance the python time module
