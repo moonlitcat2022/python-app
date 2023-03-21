@@ -1,1 +1,20 @@
+html,
+			body {
+				height: 100%;
+			}
 
+			body {
+				/*background-color: dimgray;*/
+				/*This is a backup in case the gradient does not work*/
+				/*These are all of the background things
+				background: linear-gradient(to bottom, #f7b733, #fc4a1a);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				animation: gradient-animation 5s ease-in-out infinite;
+				/* Use your preferred colors and gradient direction */
+				margin: 0;
+				padding: 0;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				text-align: center;
+				color: white;
+			}
