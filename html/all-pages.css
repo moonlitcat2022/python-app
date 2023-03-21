@@ -1,4 +1,4 @@
-html,
+			html,
 			body {
 				height: 100%;
 			}
@@ -6,7 +6,7 @@ html,
 			body {
 				/*background-color: dimgray;*/
 				/*This is a backup in case the gradient does not work*/
-				/*These are all of the background things
+				/*These are all of the background things*/
 				background: linear-gradient(to bottom, #f7b733, #fc4a1a);
 				background-repeat: no-repeat;
 				background-size: 100%;
@@ -18,3 +18,62 @@ html,
 				text-align: center;
 				color: white;
 			}
+			
+			nav {
+				background-color: #333;
+				color: #fff;
+				font-size: 18px;
+			  }
+			  
+			  nav ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			  }
+			  
+			  nav li {
+				margin: 0 10px;
+			  }
+			  
+			  nav a {
+				color: #fff;
+				text-decoration: none;
+			  }
+			  
+			  nav a:hover {
+				text-decoration: underline;
+			  }
+			
+			@keyframes gradient-animation {
+				0% {
+					background-size: 100%;
+					background-position: 0 0;
+				}
+			
+				25% {
+					background-size: 200%;
+					background-position: 0 0;
+					background-color: #fc4a1a;
+				}
+			
+				50% {
+					background-size: 200%;
+					background-position: 100% 0;
+					background-color: #f7b733;
+				}
+			
+				75% {
+					background-size: 200%;
+					background-position: 100% 100%;
+					background-color: #fc4a1a;
+				}
+			
+				100% {
+					background-size: 100%;
+					background-position: 0 100%;
+				}
+			}
+			
